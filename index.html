@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="Formulario">
+    <form action="formulario.php" method="post">
+        <table>
+            <tr>
+            <td>Nombres:</td>
+            <td><input type="text" placeholder="Nombres" name="Nombres" required></td>
+            </tr>
+            <tr>
+            <td>Apellido:</td>
+            <td><input type="text" placeholder="Apellido" name="Apellido" required></td>
+            </tr>
+            <tr>
+            <td>Documento:</td>
+            <td><input type="number" placeholder="Documento" name="Documento" required></td>
+            </tr>
+            <tr>
+            <td>Fecha Nacimiento:</td>
+            <td><input type="text" placeholder="Fecha Nacimiento" name="Fecha_Nacimiento" required></td>
+            </tr>
+            <tr>
+            <td>Domicilio:</td>
+            <td><input type="text" placeholder="Domicilio" name="Domicilio" required></td>
+            </tr>
+            <tr>
+            <td>Telefono:</td>
+            <td><input type="number" placeholder="Telefono" name="Telefono" required></td>
+            </tr>
+            <tr>
+            <td>Email:</td>
+            <td><input type="email" placeholder="Email" name="Email" required></td>
+            </tr>
+            <tr>
+            <td>Curso:</td>
+            <td><input type="text" placeholder="Curso" name="Curso" required></td>
+            </tr>
+            <tr>
+        </table>
+        <td>
+            <input type="submit" value="Enviar" name="Enviar">
+        </td>
+        <td>
+            <button type="button" onclick="window.open('basedatos.php') " target="_blank" >Base de datos</button>
+        </td>
+        </tr>
+    </form>
+    </div>
+</body>
+</html>
